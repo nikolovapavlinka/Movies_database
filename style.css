@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:wght@300;400&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #dfe5ef, #3a6dbb);
+}
+
+.movie {
+    max-width: fit-content;
+    margin: 50px auto;
+}
+
+#movieForm {
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 0px;
+    border: 3px solid #172481;
+    border-radius: 10px;
+    margin-left: 17px;
+}
+
+#title {
+
+}
+
+#rating {
+
+}
+
+#button {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    padding: 7px 3px;
+    font-size: 17px;
+    background: #172481;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #172481;
+    border-radius: 5px;
+}
+
+#button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 3px #909cf7;
+}
+
+#movieList {
+    text-align: center;
+}
+
+#select_rating {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 300px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    border: 3px solid #172481;
+    border-radius: 10px;
+    color: #444;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+li {
+    margin: 10px 0;
+}
